@@ -21,4 +21,4 @@ jobs:
         aws-region: 'eu-west-1'  # Reemplaza con la región de tu bucket de S3
 
     - name: Deploy to S3
-      run: aws s3 sync ./ s3://your-bucket-name --delete
+      run: aws s3 sync ./ s3://restart-simple-web --delete
